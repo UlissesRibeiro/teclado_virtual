@@ -1,10 +1,12 @@
 .container{
  width: 40%;
+
 }
 
 .teclado{
     background-color: #555;
-    padding: 15px 20px;
+    padding: 10px 0px 20px 35px;
+
     border-radius: 10px;
     /*display: inline-block;*/   
     -webkit-user-select: none;
@@ -20,6 +22,7 @@ button{
     border: 1px;
     border-style:solid;
     border-radius: 0px 0px 8px 8px;
+    
     padding-left: 5px;
     padding-right: 5px;
     font-size: ;
@@ -28,6 +31,7 @@ button{
 #fila_1 button{
     font-size: 10px;
     height: 30px;
+    margin: 0.35%;
 
 }
 
@@ -53,7 +57,7 @@ button{
     height: 30px;
 }
 #tab{
-    width: 7%;
+    width: 8.1%;
 }
 #caps{
     width: 10%;
@@ -65,10 +69,11 @@ button{
     width: 7.2%;
 }
 #shiftD{
-    width: 3%;
+    width: 7.2%;
 }
+
 #space{
-    width: 42.8%;
+    width: 47.6%;
 }
 #enter{
     width: 11%;

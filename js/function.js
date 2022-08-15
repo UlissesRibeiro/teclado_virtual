@@ -6,39 +6,75 @@ function digitar(event) {
         break;
         case 112:
         document.getElementById("f1").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 113:
         document.getElementById("f2").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 114:
         document.getElementById("f3").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 115:
         document.getElementById("f4").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 116:
         document.getElementById("f5").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 117:
         document.getElementById("f6").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 118:
         document.getElementById("f7").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 119:
         document.getElementById("f8").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 120:
         document.getElementById("f9").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 121:
         document.getElementById("f10").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 122:
         document.getElementById("f11").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
         case 123:
         document.getElementById("f12").style.backgroundColor = "green";
+        event.returnValue = false;
+        event.keyCode = 0;           
+        return false; 
         break;
 
         case 192:
@@ -123,11 +159,15 @@ function digitar(event) {
         case 221:
         document.getElementById("colchete").style.backgroundColor = "green";
         break;
-
+        case 220:
+        document.getElementById("colcheteD").style.backgroundColor = "green";
+        document.getElementById("barra").style.backgroundColor = "blue";
+        break;
         
         
         case 16:
         document.getElementById("shiftE").style.backgroundColor = "green";
+        document.getElementById("shiftD").style.backgroundColor = "blue";
         break;
         case 226:
         document.getElementById("barra").style.backgroundColor = "green";
@@ -161,6 +201,7 @@ function digitar(event) {
         break;
         case 191:
         document.getElementById("doisPts").style.backgroundColor = "green";
+        document.getElementById("contraBarra").style.backgroundColor = "blue";
         break;
         case 193:
         document.getElementById("contraBarra").style.backgroundColor = "green";
@@ -208,6 +249,7 @@ function digitar(event) {
 
         case 17:
         document.getElementById("ctrlE").style.backgroundColor = "green";
+        document.getElementById("ctrlD").style.backgroundColor = "blue";
         break;
         case 91:
         document.getElementById("win").style.backgroundColor = "green";
@@ -218,17 +260,17 @@ function digitar(event) {
         case 32:
         document.getElementById("space").style.backgroundColor = "green";
         break;
-        /*tecla alt preparar um if case 18:
-        document.getElementById("altgr").style.backgroundColor = "yellow";
-        break;*/
+        case 225:
+        document.getElementById("altgr").style.backgroundColor = "green";
+        break;
         case 86:
         document.getElementById("v").style.backgroundColor = "green";
         break;
         case 93:
         document.getElementById("menu").style.backgroundColor = "green";
-        break;
-         
+        break;         
   
 
   }
+  
 }
