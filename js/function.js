@@ -250,9 +250,11 @@ function digitar(event) {
         case 17:
         document.getElementById("ctrlE").style.backgroundColor = "green";
         document.getElementById("ctrlD").style.backgroundColor = "blue";
+        document.getElementById("altgr").style.backgroundColor = "blue";
         break;
         case 91:
         document.getElementById("win").style.backgroundColor = "green";
+        document.getElementById("winD").style.backgroundColor = "blue";
         break;
         case 18:
         document.getElementById("alt").style.backgroundColor = "green";
@@ -260,9 +262,9 @@ function digitar(event) {
         case 32:
         document.getElementById("space").style.backgroundColor = "green";
         break;
-        case 225:
+        /*case 225:
         document.getElementById("altgr").style.backgroundColor = "green";
-        break;
+        break;*/
         case 86:
         document.getElementById("v").style.backgroundColor = "green";
         break;
